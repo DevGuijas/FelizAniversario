@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <title>Feliz Aniversário, momo!</title>
+    <link rel="icon" type="image/x-icon" href="./src/page.ico">
+</head>
+<body>
+    <div class="container">
+        <div id="msgInicial">
+            <h1>Feliz Aniversário, momo!</h1>
+            <p>Que seu dia seja recheado de alegrias, risadas e muitos momentos especiais.</p>
+            <p>Para celebrar o seu dia, aqui vai um presente especial:</p>
+            <img src="images/gift.gif" alt="gift" id="gift">
+            <p>Espero que seu dia seja tão incrível quanto um girassol ao vento!</p>
+        </div>
+        <button id="button" onclick="mostrarMensagem()">Abrir o presente ;)</button>
+        <div id="mensagem" style="display: none;">
+            <p>Este é um cookie virtual que assei especialmente para você:</p>
+            <img src="images/cookie.gif" alt="Cookie de Aniversário">
+            <p>Aproveite cada mordida!</p>
+            <audio id="audioPlayer" autoplay>
+                <source src="./src/Fourth_Of_July.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <button id="nextButton" onclick="textao()" style="display: none;">Next</button>
+
+    </div>
+
+    <div class="background">
+        <div id="textao" style="display: none;">
+            <p>Feliz aniversário, meu amor! Que o seu dia seja perfeito e repleto de felicidades, alegrias, saúde, diversão e tudo o que há de bom neste mundo. Você merece o melhor da vida, pois é uma pessoa maravilhosa e única!</p>
+            <p>Há exatamente 1 ano e 4 meses, tive a sorte de te conhecer e, a partir desse momento, me tornei a pessoa mais feliz deste mundo. Você me ensinou que o amor é simples, puro e transformador. Cada sorriso seu me traz paz, e cada palavra sua faz meu coração bater mais forte. Com você, até os dias mais difíceis se tornam leves e cheios de luz.</p>
+            <p>Queria poder te dar o mundo pois, você merece muito mais do que isso. Você merece tudo que há de bom por toda simplicidade e magnitude que você é!</p>
+            <p>Eu poderia passar a vida inteira tentando encontrar as palavras certas para expressar tudo o que sinto por você, mas sei que nenhuma delas será suficiente para descrever o tamanho do meu amor. O que sinto por você é mais profundo do que qualquer frase poderia alcançar, acredite.</p>
+            <p>Eu te admiro, te respeito e te amo de uma forma que nunca imaginei ser possível. Você é minha inspiração, meu alicerce e minha razão de sorrir todos os dias. Você tem a capacidade de iluminar qualquer ambiente com sua energia, e me sinto abençoado por compartilhar a vida ao seu lado!</p>
+            <p>Hoje, no seu aniversário, quero que saiba o quanto você é especial não só para mim, mas para todos que têm a sorte de te conhecer. Você é uma pessoa incrível, e tenho certeza de que ainda conquistará o mundo com o seu brilho e sua bondade.</p>
+            <p>Espero que este seja apenas mais um de muitos aniversários que celebraremos juntos, e que, a cada ano, nosso amor cresça ainda mais. Que a vida te traga sempre o que há de melhor, pois você merece o melhor de tudo!</p><br>
+            <p>Feliz aniversário, minha smurfette, que todos os seus sonhos se realizem. Com amor, seu principe Guijas <3</p><br>
+            <img src="images/duck.png" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
